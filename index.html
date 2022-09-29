@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Data information</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/ab2155e76b.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="/style.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <h2>Employee Information</h2>
+        </div>
+        <form action="connect.html" method="post" class="form" id="form">
+          <div class="form-control ">
+          <label for="Name" >Name</label>
+          <input id="Name" name="Name" type= "text" placeholder="Enter Your Name">
+
+
+
+
+          </div>
+
+          <div class="form-control ">
+            <label for="DOB" >DOB</label>
+            <input id="DOB" name="DOB" type= "text" placeholder="Enter Your Date of Birth">
+
+            </div>
+
+
+
+          <div class="form-control ">
+          <label for="email">email</label>
+          <input id="email" name="email" type= "email" placeholder="name@gmail.com">
+
+
+          </div>
+
+          <div class="form-control">
+            <label for="Phone">Phone</label>
+            <input id="Phone" name="Phone" placeholder="Enter Your Number" >
+
+
+          </div>
+            <div class="form-control ">
+            <label for="Address" >Address</label>
+            <input id="Address" name="Address" type= "text" placeholder="Enter Your Address">
+
+            </div>
+
+        <div class="image-upload-wrap" align="center">
+         <input class="file-upload-input" type="file" onchange="raedURL(this);" accept="image/*"/>
+        <div class="file-upload-content">
+         <img class="file-upload-image" src="#" alt="your image" />
+        <div class="image-title-wrap">
+        </div>
+        </div>
+       </div>
+
+          <button type="submit"  value="Submit">Submit</button>
+
+        </form>
+      </div>
+
+      <script src="/app.js"></script>
+
+</body>
+</html>
